@@ -35,7 +35,7 @@ shadow = document.querySelector(".shadow");
 
 
 function preview(element){
-    document.querySelector("body").style.overflow = "hidden";
+    // document.querySelector("body").style.overflow = "hidden";
     let selectedPrevImg = element.querySelector("img").src;
     let selectedImageCategory = element.getAttribute("data-name");
     categoryName.textContent = selectedImageCategory;
@@ -46,7 +46,7 @@ function preview(element){
     closeIcon.onclick = () =>{
         previewBox.classList.remove("show");
         shadow.classList.remove("show");
-        document.querySelector("body").style.overflow = "scroll";
+        // document.querySelector("body").style.overflow = "scroll";
 
     }
 }

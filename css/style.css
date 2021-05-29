@@ -225,6 +225,18 @@ nav .items .active {
   display: block;
 }
 
+@media (max-width: 500px) {
+  .preview-box {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .shadow.show {
+    display: none;
+  }
+}
+
 /* ------------- */
 #myBtn {
   display: none;
